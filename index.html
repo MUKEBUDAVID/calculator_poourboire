@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./public/css/style.css">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+  <!-- <script defer src="./app.js"></script> -->
+
+
+</head>
+
+<body>
+
+
+  <p class="spli">SPLI<br>TTER</p>
+  <section class="corps">
+
+
+    <div class="corps_left">
+
+
+
+
+      <label class="label_1"><span>Bill</span> <span>can't be zero</span>
+      </label>
+      
+      <div class="Bill_div">
+        <img src="./asset/images/icon-dollar.svg" class="Bill_img">
+
+        <input pattern="(^\d+[\.]?\d+?$)|((M|([1-9]))|(^$|\s+))" type="text" id="Bill" class="Bill" placeholder=" 0 "
+         title="entre un nombre positive" >
+      </div>
+
+      <label class="label_2"> Select Tip %</label>
+      <div class="btn">
+        <button id="btn1">5%</button>
+        <button id="btn2">10%</button>
+        <button id="btn3">15%</button>
+        <button id="btn4">25%</button>
+        <button id="btn5">50%</button>
+        <button>
+          <input pattern="(^\d+[\.]?\d+?$)|((M|[0-9])|(^$|\s+))" type="text" name="custom" id="custom" class="custom"
+            placeholder="Custom" title="entre un nombre positive">
+        </button>
+      </div>
+
+
+
+
+      
+
+      <label class="label_3"><span>Number of People</span> <span>can't be zero</span></label>
+      
+
+      <div class="number_div">
+        <img src="./asset/images/icon-person.svg" class="number_img">
+        <input pattern="(^\d+[\.]?\d+?$)|((M|[1-9])|(^$|\s+))" type="text" id="number" class="number" placeholder="0"
+         title="entre un nombre positive" >
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="corps_right">
+
+      <div class="center">
+
+        <div class="tip_one">
+          <label><span>Tip Amount</span> <br>  <span>/ person</span></label>
+          
+
+          <p class="sorti_one" >
+            <span id="span1">$</span>
+            <span id="span2">0.00</span>
+           
+          </p>
+        </div>
+
+
+
+
+        <div class="tip_two">
+          <label><span>Total</span> <br> <span>/person</span> </label>
+          
+
+
+          <p class="sorti_two" id="sorti_two">
+            <span id="span5">$</span>
+            <span id="span6">0.00</span>
+          
+          </p>
+
+        </div>
+
+        <button id="reset" class="reset" >RESET</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script  src="./app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+// for the conversion of px then rem
+@function convertion_rem($value){
+   @return ($value*1rem)/10;
+   // @return math.div($value * 1rem, 10);
+
+
+}
+
+
+
+// @debug convertion_rem(29);
+
+

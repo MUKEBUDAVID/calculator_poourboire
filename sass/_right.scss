@@ -1,0 +1,186 @@
+// breakpoint for pc
+@media screen and(min-width:376px){
+    
+    .center {
+    
+    
+        .tip_one {
+            font-size: 15px;
+            max-width: 600px;
+            width: 90%;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+    
+    
+    
+            label span:nth-child(3) {
+                margin-top: 4px;
+                display: block;
+                color: $Dark_grayish_cyan;
+            }
+    
+    
+        }
+    
+        .sorti_one {
+    
+            color: $Strong_cyan;
+            font-size: 40px;
+    
+    
+    
+        }
+    
+    
+    
+        .tip_two {
+    
+            font-size: 15px;
+            max-width: 600px;
+            width: 90%;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+    
+    
+    
+            label span:nth-child(3) {
+                margin-top: 4px;
+                display: block;
+                color: $Dark_grayish_cyan;
+            }
+    
+    
+    
+    
+        }
+    
+    
+        .sorti_two {
+    
+            color: $Strong_cyan;
+            font-size: max(4rem,4px);
+    
+    
+    
+        }
+    
+    
+        .reset {
+            background-color: $Strong_cyan;
+            max-width: 600px;
+            width: 90%;
+            height: 50px;
+            border: 0px transparent solid;
+            font-size:max(3rem,4px) ;
+            color:$Very_dark_cyan;
+            cursor: pointer;
+    
+    }
+    .reset:hover{
+    background-color:$Light_grayish_cyan;
+    
+    }
+    
+    
+    }
+    
+}
+
+
+
+// breakpoint for mobile
+@media screen and(max-width:375px) {
+
+    .center {
+
+
+        .tip_one {
+            font-size: max(convertion_rem(15), 4px);
+            max-width: 600px;
+            width: 90%;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+
+
+
+            label span:nth-child(3) {
+                margin-top: 4px;
+                display: block;
+                color: $Dark_grayish_cyan;
+            }
+
+
+        }
+
+        .sorti_one {
+
+            color: $Strong_cyan;
+            font-size:max(convertion_rem(30), 2px);
+
+
+
+        }
+
+
+
+        .tip_two {
+
+            font-size:max(convertion_rem(15),4px);
+            max-width: 600px;
+            width: 90%;
+            // background-color: red;
+            display: flex;
+            justify-content: space-between;
+            height: 50px;
+
+
+
+            label span:nth-child(3) {
+                margin-top: 4px;
+                display: block;
+                color: $Dark_grayish_cyan;
+            }
+
+
+
+
+        }
+
+
+        .sorti_two {
+
+            color: $Strong_cyan;
+            font-size: max(convertion_rem(30), 2px);
+
+
+
+        }
+
+
+        .reset {
+            background-color: $Strong_cyan;
+            max-width: 600px;
+            width: 90%;
+            height: 50px;
+            border: 0px transparent solid;
+            font-size: max(3rem, 4px);
+            color: $Very_dark_cyan;
+            cursor: pointer;
+
+        }
+
+        .reset:hover {
+            background-color: $Light_grayish_cyan;
+
+        }
+
+
+    }
+
+}

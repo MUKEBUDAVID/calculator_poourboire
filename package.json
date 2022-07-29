@@ -1,0 +1,23 @@
+{
+  "name": "calculator_poourboire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "sassprod": "sass main.scss:./public/css/style.css -w --style=compressed",
+    "sassdev": "sass main.scss:./public/css/style.css -w",
+    "prefix": "postcss -w ./public/css/style.css --user autoprefixer -d ./public/css/prefixed/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUKEBUDAVID/calculator_poourboire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MUKEBUDAVID/calculator_poourboire/issues"
+  },
+  "homepage": "https://github.com/MUKEBUDAVID/calculator_poourboire#readme"
+}
